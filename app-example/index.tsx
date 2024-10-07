@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import HeaderBar from "../components/HeaderBar";
+
 export default function Index() {
   return (
     <View
@@ -9,7 +9,6 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <HeaderBar isMain={true} title="Travel Maiker"/>
       <Text>Edit app/index.tsx to edit this screen.</Text>
     </View>
   );
